@@ -1,0 +1,86 @@
+TITLE: How the Web Works 
+DESCRIPTION: The web is made of connected computers and servers talking to each other (internet infrastructure) using HTML protocol a bunch of computers that communicate with each other. Besides the HTML protocol, there are several layers of protocols, called protocol stack, that serve different functions such as application, transport, network and hardware.
+TITLE: HTML
+DESCRIPTION: HTML stands for Hypertext Markup Language. HTML documents form the majority of the content on the web. HTML documents contain text content which describes "what you see"and markup which describes "how it looks". Standard markup language used to create web pages. It is written in the form of the HTML elements consisting of tags and bracket. HTML elements form the building blocks of all websites. Web Browsers can also refer to Cascading Style sheets to define look and layout of text and other material. The Mozilla Developer Network (aka MDN, and a good resource in general), explains key HTML vocabulary.
+TITLE: Tags and Elements 
+DESCRIPTION: HTML documents are made of HTML elements. When writing HTML, we tell browsers the type of each element by using HTML tags.Tags are used to mark up the start and end of an HTML element. A start tag consists of an opening angle bracket followed by the element name, zero or more space separated attribute/value pairs, and a closing angle bracket. 
+TITLE: Inline vs Block Elements 
+DESCRIPTION: HTML elements are either inline or block. Block elements form an "invisible box" around the content inside of them. Block elements are very important in creating web pages because the box is the basic building structure for all web pages. Inline styling is useful for applying a unique style to a single HTML element.
+TITLE: HTML Validation
+DESCRIPTION: HTML code can be validated for standard compliance as well as suitability. Follow this link to validate HTML code: ''' http://validator.w3.org/#validate_by_input '''. It's important to have your code validated to insure that the web page will work on standard browsers. 
+TITLE: CSS
+DESCRIPTION: Cascading Style Sheets - style sheet language used to describe the look and feel of a document written in a markup language sucha as HTML.It's easy to add style using CSS- Cascading Style Sheets. CSS give programmers a way to control the style of HTML elements. Attributes can be passed or inherited using classes. Usually specified in a different file linked to the HTML file. The separation of format and content makes HTML and CSS a powerful combination of software tools.  
+TITLE: CSS Validation
+DESCRIPTION: CSS style code can be validated for standards compliance as well as suitability. Follow this link to validate CSS code:
+''' https://jigsaw.w3.org/css-validator/#validate_by_input'''. Your CSS code may be correct but if it's not validated, it may display other unintended formats with other browsers. Icons can also be displayed which will show your page is validated. 
+TITLE: Semantic Tags
+DESCRIPTION: Changing the style of the elements can be done by changing the attributes or properties. These tags describe but does not specify the content. Tags that do not describe are referred to as unsemantic. 
+TITLE: Code, Test, Refine
+DESCRIPTION: Programming steps for creating a website can be broken down to 3 steps: Code, Test, and Refine.Ideally, think about the size and Look for natural boxes(every web page is made up of boxes). Look for repeated styles and semantics then write your HTML code. Apply styles from biggest to smallest. Fix things until web design looks as intended. Developer tool in Web browsers can be useful in debugging code.  
+TITLE: Python
+DESCRIPTION: Python is an interpreted, object-oriented, high-level programming language. It is simple, easy to use and learn.Python supports modules and packages, which encourages program modularity and code reuse. Following links are good references:  https://www.python.org/doc, https://docs.python.org/2/contents.html. 
+TITLE: Variables
+DESCRIPTION: Use to store or assign info. A name is assigned a value thus the name should be descriptive and unique. You can embed variables inside a string. Note: in python and other programming languages, you cannot combine variables of different data types.  
+TITLE: Strings
+DESCRIPTION: A sequence of characters surrounded by quotes. Can be easily manipulated, length changed, deleted, concatenated using different functions. A string can also be indexed which allows access to individual elements. Many built-in functions are available in python such as parse, format, convert, atoi, atof, etc. 
+TITLE: Lists
+DESCRIPTION: An abstract data type that represents a sequence of values, where the same value may occur more than once. List data types are often implemented using arrays or linked lists. A list can also be part of a list or inside a list. Gets really interesting with nested lists. Lists can be used for different data structures: stack, queues, sets, dictionary. 
+TITLE: Function
+DESCRIPTION: A function is a piece of code used to perform a 
+specific task. It requires an input, a process, and an output.
+Making a function involves definition and receiving of parameters. 
+Programmers can avoid repetition by calling the function for 
+repetitive tasks. This eliminates having to write code for each call. Biggest benefit is ability to break down big problems into chunks and code portability. Python like other programming languages have built in functions. See following link for more info on built in functions:  https://docs.python.org/2/library/functions.html
+TITLE: Control FLow If and While
+DESCRIPTION: Decision processes are simplified with control flow mechanisms such as IF and While. For higher number of processes, while loops are best to use. While loops allow processes to continue until condition is met and while loops terminate at that point, otherwise it goes into infinite loops.
+TITLE: For Loops
+DESCRIPTION: More methods for decisions processes. A simpler way to access elements in the list. Syntax for For Loops can use the keyword "in" such as { name in list } or { for e in strngs } 
+TITLE: Structured data
+DESCRIPTION: Program is written so a specific process or routine is created separately. Modular structure allows coding without having to repeat code. Rewriting code should be avoided because it could lead to more errors and difficulty in debugging. Modular construction also allows rapid changes because one style change is applied to all sections. Plus it looks better if the webpage has the same look and feel. 
+TITLE: Mutability
+DESCRIPTION: The ability to change data in lists. Mutable data can be manipulated and passed on between calls. Mutable sequences can be changed after they are created. Depending on class hierarchy, data can be mutable or immutable as in cannot be changed (constant). Strings are immutable. 
+TITLE: Aliasing
+DESCRIPTION: Two different ways to refer to an object. If the value assigned to one name changes then the other variable changes in value as well because the point to the same value or pointer.
+TITLE: Append data
+DESCRIPTION: The function append adds to the list while + concatenates the list. There are many forms of append such as list.append(x), list.extend(L), list.insert(i,x), list.remove(x), list.index(x), list.count(x), list.sort(cmp,key,reverse), list.reverse()
+TITLE: Debugging Strategy
+DESCRIPTION: Examine error messages when programs crash. Work from example code. Make sure examples work. Check (print) intermediate results ( assert variables -- best debugging tool). Keep and compare old versions. Best source of info when debugging code: http://stackoverflow.com/
+TITLE: Modular code
+DESCRIPTION: Keeping data separated from its visual presentation facilitates changes. Keep the raw text in one place and the visual presentation elsewhere.This makes it easier to incorporate changes or to isolate errors. 
+TITLE: How to think like a programmer
+DESCRIPTION: Understand the requirements of the problem -- inputs and outputs. Plan an approach to solving the problem. Re-familiarize yourself with code you've already written that maybe useful in solving the problem. Write new code to solve other pieces of the problem. Put all the pieces together.
+TITLE: Abstraction
+DESCRIPTION: Details of programming code or steps are hidden. Avail of the functions in different modules to perform specific tasks. The use of abstaction frees the programmer from having to understand and code every little task. Instead, the programmer can use these "building blocks" to create a structured program. For info on the details or Python standard modules go to https://docs.python.org/2.7/library/index.html
+TITLE: Object Oriented Programming
+DESCRIPTION: Type of programming based on classes and collection of interacting objects. While traditional programming requires use of functions, routines and subroutines, in Object oriented programming each object can receive, process or send messages to other objects. Like a community of objects, each object has a role to play providing a service by performing an action. In large scale programming projects, the ability to hide details(abstraction), encapsulation, inheritance, style, etc. allow a structured method which can be divided into pieces.
+Improved software-development productivity: Object-oriented programming is modular, as it provides separation of duties in object-based program development. It is also extensible, as objects can be extended to include new attributes and behaviors. Objects can also be reused within an across applications. Because of these three factors – modularity, extensibility, and reusability – object-oriented programming provides improved software-development productivity over traditional procedure-based programming techniques.
+Additional benefits of OOP
+Improved software maintainability: For the reasons mentioned above, object-oriented software is also easier to maintain. Since the design is modular, part of the system can be updated in case of issues without a need to make large-scalechanges.
+Faster development: Reuse enables faster development. Object-oriented programming languages come with rich libraries of objects, and code developed during projects is also reusable in future projects.
+Lower cost of development: The reuse of software also lowers the cost of development. Typically, more effort is put into the object-oriented analysis and design, which lowers the overall cost of development.
+Higher-quality software: Faster development of software and lower cost of development allows more time and resources to be used in the verification of the software. Although quality is dependent upon the experience of the teams, object- oriented programming tends to result in higher-quality software.
+TITLE: Class
+DESCRIPTION: Defines a structure and initiates memory for a new instance. Main characteristic of object oriented programming languages. Similar to a function but with ability to define new variables, and include additional code. Class is like the mold, blueprint, or template which creates or allows objects to be formed with similar attributes. Different from a module, a class is a user-defined prototype for an object that defines a set of attributes. The attributes are data members (class variables and instance variables) and methods, accessed via dot notation.  
+TITLE: Objects
+DESCRIPTION: Abstraction of data, Instance of a class. Can have multiple names referring to the same data structure. Every object has an identity, a type and a value. A unique instance of a data structure that's defined by its class. An object comprises both data members (class variables and instance variables) and methods. 
+TITLE: Class variables 
+DESCRIPTION: Class variables are specified as variables inside the class. Class variables are for attributes and methods shared by all instances of the class. Examples are user defined or predefined class variables such as __name__, __doc__, etc.    
+TITLE: Instance variable
+DESCRIPTION: Data unique to each instance. Type of variable that is defined inside a method and belongs only to the current instance of a class. As opposed to class variables which is owned by the class, instance variable are owned by specific instances.  
+TITLE: Constructor
+DESCRIPTION: Prepares the object for action and establish initial values. The first argument of every class method, including __init__, is always a reference to the current instance of the class. Keyword __init__ in a class definition instantiates an object in memory.It's not necessary to have __init__ method in every class definition but it's used to differentiate from others created in the same class.  By convention, the first argument of any Python class method (the reference to the current instance) is called self. Destructor --- is the opposite of constructor. Destructor clears memory of objects no longer needed. 
+TITLE: Instance method
+DESCRIPTION: Function that belongs to an object.A special kind of function that is defined in a class definition. Instance: An individual object of a certain class. An object obj that belongs to a class Turtle, for example, is an instance of the class Turtle. Instantiation: The creation of an instance of a class.  
+TITLE: Inheritance
+DESCRIPTION: Instances can be inherited from the parent class. Inherited objects are typically referred to as child of the parent class. Characteristics os a class are tranferred or derived to another class. Just be careful with multiple inheritances. 
+This capability makes OOP a powerful means of programming because the main structure is defined and sub classes are borne from the main structure. It wouldn't be object oriented programming without inheritance capability. 
+TITLE: Module
+DESCRIPTION: In python, modules are programs that can be implemented to perform a set of functions. Modules are imported from other modules using the import command. The Python Standard library contains built-in modules that provide standardized solutions to most common problems.  
+TITLE: Method Overriding
+DESCRIPTION: Not all attributes may be required or some attributes may not be desired for use. In this case, the attribute can be derived inside the sub-class and not from the parent class. Method inherited within the sub class and not from the parent class is called method overriding. Could be used for exception cases, i.e. a case where the attributes are different from the norm. Be careful when overriding as it may have undesired effects to previously defined or used variables. 
+TITLE: Polymorphism
+DESCRIPTION: Ability to perform certain operations on an object without caring about its precise type. In python, the data types are not explicitly defined and assumes the programmer will input correct data type unlike other programming languages. This is useful when data types changes during the course of the program or when reusing code for multiple functions. 
+TITLE: Similarities between OOP and HTML/CSS 
+DESCRIPTION: Like Object Oriented Programming, HTML/CSS has the ability to group similar objects together and create a structure and separate different objects. HTML/CSS conveniently separates content and style much in the same way that OOP uses abstraction to hide details of the program. Similarly, debugging is easier because the fault be can be isolated to the content or the style by accessing different files. This separation feature facilitates creation of large scale programs by improving content accessibility, and provide more flexibility and control. Multiple HMTL pages can share formatting by specifing the relevant CSS much in the same way that OOP uses the class structure to share code. In OOP and HTML/CSS it is easy to change the code because of the separation and the modular structure. HTML/CSS and OOP also share similar features such as Method Overriding and Inheritance. 
+TITLE: Connection between Inheritance in OOP and CSS Cascading Concept
+DESCRIPTION: Just as style properties cascade in CSS, class methods, objects, properties are also transferred. In the case of CSS, styles are not inherited but cascaded to elements. Multiple inheritance is also possible in CSS through element hierarchies.  Inheritance and Cascading may be different processes but the net effect is the same, styles or objects are transferred from parent to chiled, or parent elements to their children. Properties on high-level elements trickle down to descendent elements. 
